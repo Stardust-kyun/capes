@@ -4,6 +4,7 @@ Show custom capes on any client running Optifine by redirecting requests for Opt
 * Install dependencies with `npm install express request fs`
 * Run server with `node index.js` (sudo may be neccessary)
 * Add cape files to `capes` following `USERNAME.png` (example given)
+
 Note: you will likely need to open port 80 for this to work.
 ### For Client:
 * Edit `/etc/hosts` and add `IPADDR s.optifine.net` where IPADDR is the IP of the computer running the server
